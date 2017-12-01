@@ -1,8 +1,5 @@
 package cn.riversky.factorymethod.example3;
 
-import cn.riversky.factorymethod.example3.creator.ABC;
-import cn.riversky.factorymethod.example3.creator.ExportDBOperate;
-
 /**
  * 这里表示的是平行结构的，创建延迟，操作在先
  * 实例化时候，直接采用面向接口编程即可
@@ -13,7 +10,7 @@ public class Client {
 
 //        ExportOperate operate=new ExportTxtOperate();
 //        operate.export("ceshi");
-        ABC abc=new ExportDBOperate().createABC("cc");
-        abc.test();
+//        ABC abc=new ExportDBOperate().createABC("cc");
+//        abc.test();
     }
 }

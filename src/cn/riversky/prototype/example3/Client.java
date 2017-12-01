@@ -1,5 +1,6 @@
 package cn.riversky.prototype.example3;
 
+import cn.riversky.prototype.example3.clone.EnterpriseOrder;
 import cn.riversky.prototype.example3.clone.PersonalOrder;
 
 /**
@@ -18,5 +19,15 @@ public class Client {
         Server ob = new Server(op);
         //调用业务来保存订单对象
         ob.operate(op);
+        EnterpriseOrder op1 = new EnterpriseOrder();
+        //设置订单数据
+        op1.setOrderProductNum(12925);
+        op1.setEnterpriseName("张三");
+        op1.setProductId("P0001");
+
+        //这里获取业务处理的类，也直接new了，为了简单，连业务接口都没有做
+        Server ob2 = new Server(op1);
+        //调用业务来保存订单对象
+        ob2.operate(op1);
     }
 }
