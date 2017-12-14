@@ -1,4 +1,4 @@
-package cn.riversky.composite.e5;
+package cn.riversky.structtype.composite.e5;
 
 /**
  * 抽象的组件对象，安全性的实现方式

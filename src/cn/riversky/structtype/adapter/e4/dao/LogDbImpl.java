@@ -1,8 +1,11 @@
-package cn.riversky.adapter.e4.dao;
+package cn.riversky.structtype.adapter.e4.dao;
 
-import cn.riversky.adapter.e4.model.LogModel;
+
+import cn.riversky.structtype.adapter.e4.model.LogModel;
 
 import java.util.List;
+
+
 
 /**
  * Created by admin on 2017/12/4.
@@ -25,10 +28,11 @@ public class LogDbImpl implements LogDbDao{
     }
 
     @Override
-    public List<cn.riversky.adapter.e4.model.LogModel> getAllLog() {
+    public List<LogModel> getAllLog() {
         System.out.println(" db  getAllLog");
         return null;
     }
+
 
     @Override
     public void removeall() {

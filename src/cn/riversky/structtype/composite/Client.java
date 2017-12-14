@@ -1,8 +1,8 @@
-package cn.riversky.composite;
+package cn.riversky.structtype.composite;
 
-import cn.riversky.composite.e2.Component;
-import cn.riversky.composite.e2.Composite;
-import cn.riversky.composite.e2.Leaf;
+import cn.riversky.structtype.composite.e2.Component;
+import cn.riversky.structtype.composite.e2.Composite;
+import cn.riversky.structtype.composite.e2.Leaf;
 
 /**
  * Created by admin on 2017/12/6.

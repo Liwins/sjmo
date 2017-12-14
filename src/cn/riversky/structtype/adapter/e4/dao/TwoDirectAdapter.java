@@ -1,7 +1,7 @@
-package cn.riversky.adapter.e4.dao;
+package cn.riversky.structtype.adapter.e4.dao;
 
 
-import cn.riversky.adapter.e4.model.LogModel;
+import cn.riversky.structtype.adapter.e4.model.LogModel;
 
 import java.util.List;
 
@@ -56,7 +56,7 @@ public class TwoDirectAdapter implements LogDbDao, LogFileDao {
     }
 
     @Override
-    public List<cn.riversky.adapter.e4.model.LogModel> getAllLog() {
+    public List<LogModel> getAllLog() {
         return filelog.readLogFile();
     }
 

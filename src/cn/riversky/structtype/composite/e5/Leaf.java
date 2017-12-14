@@ -1,4 +1,4 @@
-package cn.riversky.composite.e5;
+package cn.riversky.structtype.composite.e5;
 
 /**
  * Created by admin on 2017/12/6.

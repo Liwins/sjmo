@@ -1,4 +1,4 @@
-package cn.riversky.composite.e3;
+package cn.riversky.structtype.composite.e3;
 
 /**
  * 定义抽象组件，将叶子节点和非叶子节点进行，缺省实现

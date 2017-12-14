@@ -1,4 +1,4 @@
-package cn.riversky.composite.e2;
+package cn.riversky.structtype.composite.e2;
 
 import java.util.ArrayList;
 import java.util.List;

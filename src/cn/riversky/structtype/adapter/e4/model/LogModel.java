@@ -1,4 +1,4 @@
-package cn.riversky.adapter.e4.model;
+package cn.riversky.structtype.adapter.e4.model;
 
 import java.io.Serializable;
 

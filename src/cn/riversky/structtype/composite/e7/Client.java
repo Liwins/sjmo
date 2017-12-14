@@ -1,4 +1,4 @@
-package cn.riversky.composite.e7;
+package cn.riversky.structtype.composite.e7;
 
 /**
  * 通过路径建立父子关系

@@ -16,6 +16,7 @@ public abstract class Decorator extends Component{
     /**
      * 示例方法
      */
+    @Override
     public  void operation(){
         component.operation();
     }

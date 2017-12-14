@@ -17,6 +17,7 @@ public class DecoratorA extends Decorator {
         //需要添加的职责实现
         System.out.println("日志增强");
     }
+    @Override
     public void operation() {
         //调用父类的方法，可以在调用前后执行一些附加动作
         addedBehavior();

@@ -28,7 +28,7 @@ public interface LogDbDao {
      * 获取所有的日志
      * @return 所有的日志对象
      */
-    public List<cn.riversky.adapter.e4.model.LogModel> getAllLog();
+    public List<LogModel> getAllLog();
 
     void removeall();
 }

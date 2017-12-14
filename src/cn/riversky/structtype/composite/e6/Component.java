@@ -1,4 +1,4 @@
-package cn.riversky.composite.e6;
+package cn.riversky.structtype.composite.e6;
 
 /**
  * 抽象的组件对象，添加对父节点的引用

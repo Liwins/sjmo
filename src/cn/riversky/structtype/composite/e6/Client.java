@@ -1,4 +1,4 @@
-package cn.riversky.composite.e6;
+package cn.riversky.structtype.composite.e6;
 
 
 /**
