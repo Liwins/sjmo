@@ -20,5 +20,12 @@ public abstract class Handler {
      * @return
      */
     public abstract String handleFee(String user,double fee);
+
+    /**
+     * 餐旅费处理
+     * @param user
+     * @param fee
+     * @return
+     */
     public abstract boolean visitFee(String user,double fee);
 }

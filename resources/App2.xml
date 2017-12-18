@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <jdbc>
+        <driver-class>com.mysql.jdbc.Driver</driver-class>
+        <url>centall:3306///monitor</url>
+        <user>root</user>
+        <password>riversky</password>
+    </jdbc>
+    <application-xml>spring.xml</application-xml>
+</root>

@@ -12,5 +12,12 @@ public abstract class Handler {
     public void setHandle(Handler handle) {
         this.handle = handle;
     }
+
+    /**
+     * 业务处理
+     * @param user
+     * @param fee
+     * @return
+     */
     public abstract String handleFee(String user,double fee);
 }

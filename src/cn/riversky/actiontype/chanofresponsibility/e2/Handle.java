@@ -9,6 +9,10 @@ public abstract class Handle {
     public void setHandle(Handle handle){
         this.handle=handle;
     }
+
+    /**
+     * 处理业务
+     */
     public abstract void handle();
 
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <database-connection>
+        <connection-type>1spring,2jndi</connection-type>
+        <jndi>DataSource的方式，服务器数据源的JNDI名称</jndi>
+        <jdbc>same as</jdbc>
+    </database-connection>
+    <system-operator>系统管理员ID</system-operator>
+    <log>
+        <operate-type>记录日志的发那个是，1数据库,2文件</operate-type>
+        <file-name>记录日志的文件名称</file-name>
+    </log>
+    <thread-interval>缓存线程的时间间隔</thread-interval>
+</root>
