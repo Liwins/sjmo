@@ -6,6 +6,9 @@ package cn.riversky.actiontype;
  */
 public class Client {
     public static void main(String[] args) {
-
+       diao();
+    }
+    public static void diao(){
+        System.out.println(Thread.currentThread().getName());
     }
 }
