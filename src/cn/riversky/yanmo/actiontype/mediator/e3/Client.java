@@ -1,0 +1,43 @@
+package cn.riversky.yanmo.actiontype.mediator.e3;
+
+/**
+ * 简化版的中介者模式（狭义的）
+ * 解耦比较测底，同事类通过单例模式对中间者进行实例获取
+ * Colleague->Dep User
+ * MediatorImpl->DepUserMediator
+ * @author riversky E-mail:riversky@126.com
+ * @version 创建时间 ： 2018/1/2.
+ */
+public class Client {
+    public static void main(String[] args) {
+        DepUserMediatorImpl mediator=DepUserMediatorImpl.getInstance();
+        //准备要撤销的部门，仅仅需要一个部门编号
+        Dep dep=new Dep("d1","d1");
+        Dep dep2=new Dep("d2","d2");
+        //准备用于测试的人员，也只需要一个人员编号
+        User user = new User();
+        user.setUserId("u1");
+        //测试撤销部门，在运行之前，输出一下，看这个人员属于哪些部门
+        System.out.println("撤销部门前------------------");
+        mediator.showUserDeps(user);
+        //真正执行业务，撤销这个部门
+        dep.deleteDep();
+
+        //再次输出一下，看这个人员属于哪些部门
+        System.out.println("撤销部门后------------------");
+        mediator.showUserDeps(user);
+
+        //测试人员离职，在运行之前，输出一下，看这个部门下都有哪些人员
+        System.out.println("---------------------------------");
+        System.out.println("人员离职前------------------");
+        mediator.showDepUsers(dep2);
+
+        //真正执行业务，人员离职
+        user.setUserId("u3");
+        user.dimission();
+
+        //再次输出一下，看这个部门下都有哪些人员
+        System.out.println("人员离职后------------------");
+        mediator.showDepUsers(dep2);
+    }
+}

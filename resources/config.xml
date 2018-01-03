@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <className>cn.riversky.gitbook.factorymethod.e1.DatabaseLoggerFactory</className>
+    <className>cn.riversky.gitbook.builder.e1.AngelBuilder</className>
+    <className>cn.riversky.gitbook.builder.e1.DevilBuilder</className>
+    <className>cn.riversky.gitbook.builder.e2.DevilBuilder</className>
+</config>
