@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <className>cn.riversky.gitbook.factorymethod.e1.DatabaseLoggerFactory</className>
-    <className>cn.riversky.gitbook.builder.e1.AngelBuilder</className>
-    <className>cn.riversky.gitbook.builder.e1.DevilBuilder</className>
-    <className>cn.riversky.gitbook.builder.e2.DevilBuilder</className>
+    <className>cn.riversky.gitbook.creatType.sigleton.e1.DatabaseLoggerFactory</className>
+    <className>cn.riversky.gitbook.creatType.builder.e1.AngelBuilder</className>
+    <className>cn.riversky.gitbook.creatType.builder.e1.DevilBuilder</className>
+    <className>cn.riversky.gitbook.creatType.builder.e2.DevilBuilder</className>
+    <className>cn.riversky.gitbook.Structtype.bridge.example.XmlType</className>
+    <className>cn.riversky.gitbook.Structtype.bridge.example.OricleData</className>
+    <className>cn.riversky.gitbook.Structtype.bridge.example.PdfType</className>
+    <className>cn.riversky.gitbook.Structtype.bridge.example.MysqlData</className>
 </config>
